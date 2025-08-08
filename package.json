@@ -1,0 +1,29 @@
+{
+  "name": "service_ai_propre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma:generate": "cd ../prisma && npm run generate",
+    "prisma:migrate": "cd ../prisma && npm run migrate:dev",
+    "prisma:studio": "cd ../prisma && npm run studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^5.8.1",
+    "pg": "^8.16.2",
+    "prisma": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

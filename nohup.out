@@ -1,0 +1,118 @@
+
+> service_ai_propre@1.0.0 start
+> node src/app.js
+
+[dotenv@16.6.0] injecting env (4) from .env
+Server is running on http://localhost:3002
+Connecté à la base de données
+Génération plan pour utilisateur: 35
+Génération plan pour profil: { age: null, weight: null, fitness_goal: null, intensity: null }
+Plan généré avec succès: 7 jours
+Génération plan pour utilisateur: 34
+Génération plan pour profil: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec succès: 7 jours
+Génération plan pour utilisateur: 34
+Génération plan pour profil: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec succès: 7 jours
+Génération plan pour utilisateur: 34
+Génération plan pour profil: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec succès: 7 jours
+
+> service_ai_propre@1.0.0 start
+> node src/app.js
+
+[dotenv@16.6.0] injecting env (4) from .env
+Server is running on http://localhost:3002
+Connecté à la base de données
+🎯 Génération plan IA pour utilisateur: 35
+👤 Profil utilisateur: { age: null, weight: null, fitness_goal: null, intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+JsonWebTokenError: invalid signature
+    at /Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/jsonwebtoken/verify.js:101:10)
+    at verifyToken (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/src/middlewares/checkJWT.js:10:9)
+    at Layer.handleRequest (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/router/lib/layer.js:152:17)
+    at /Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/router/index.js:295:15
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Erreur OpenAI: Unexpected token } in JSON at position 8383
+Fallback vers générateur intelligent
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Erreur OpenAI: Unexpected token { in JSON at position 5076
+Fallback vers générateur intelligent
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+🎯 Génération plan IA pour utilisateur: 34
+👤 Profil utilisateur: { age: 34, weight: 74, fitness_goal: 'lose_weight', intensity: null }
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+Plan généré avec OpenAI avec succès
+✅ Plan IA généré: 7 jours personnalisés
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/pg/lib/client.js:136:73)
+    at Object.onceWrapper (node:events:631:28)
+    at Connection.emit (node:events:517:28)
+    at Socket.<anonymous> (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/pg/lib/connection.js:62:12)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+Emitted 'error' event on Client instance at:
+    at Client._handleErrorEvent (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/pg/lib/client.js:350:10)
+    at Connection.<anonymous> (/Users/flobertjohnson/Documents/Mastere2/Projet_Finale_Master2_SportAndNutrition_mobileApp/mobileApp/SparkFit/Prod/Service_AI_propre/node_modules/pg/lib/client.js:154:16)
+    at Object.onceWrapper (node:events:631:28)
+    [... lines matching original stack trace ...]
+    at TCP.<anonymous> (node:net:350:12)
+
+Node.js v18.20.8
